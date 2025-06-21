@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css"> 
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <header style="background-color: rgb(210, 210, 218);">
-        <h1><span style="color: rgb(60, 60, 197);">Web</span>Studio</h1>
+    <div class="container">
+    <header style="background-color: rgb(255, 255, 255);">
+        <h1 class="mainh1" style="padding-top: 25px; padding-bottom: 25px;"><span style="color: rgb(60, 60, 197);">Web</span>Studio</h1>
         <nav>
-            <ul>
+            <ul style="padding-bottom: 25px; padding-top: 25px;">
                 <li>Студія</li>
                 <li>Портфоліо</li>
                 <li>Контакти</li>
@@ -18,50 +28,59 @@
             </ul>
         </nav>
     </header>
-    <main style="background-color: rgb(212, 216, 216);">
+    </div>
+    <main style="background-color: rgb(247, 247, 247);">
+        <div class="container">
         <section>
-            <button>Усі</button>
-            <button>Веб-сайти</button>
-            <button>Додатки</button>
-            <button>Дизайн</button>
-            <button>Маркетинг</button>
-        </section>
+            <ul class="mainbuttons" style="padding-top: 94px; padding-bottom: 34px;">
+                <li>   <button>Усі</button></li>
+                <li>  <button>Веб-сайти</button></li>
+                <li>  <button>Додатки</button></li>
+                <li>  <button>Дизайн</button></li>
+                <li>   <button>Маркетинг</button></li>
+            </ul>
         <section>
-          <ul>
+          <ul class="main_ul" style="padding-bottom: 94px;">
             <li> <img src="img(1).png" alt="технокряк"></li>
-            <li>Технокряк</li>
+            <li class="mainli">Технокряк</li>
             <li>Веб-сайт</li>
             <li><img src="img(2).png" alt="Постер"></li>
-            <li>Постер New Orlean vs Golder Star</li>
+            <li class="mainli">Постер New Orlean vs Golder Star</li>
             <li>Дизайн</li>
             <li><img src="img(3).png" alt="Ресторан"></li>
-            <li>Ресторан Seafood</li>
+            <li class="mainli">Ресторан Seafood</li>
             <li>Додаток</li>
             <li><img src="img(4).png" alt="Проект Prime"></li>
+            <li  class="mainli">Проєкт Prime</li>
             <li>Маркетинг</li>
-            <li><img src="img(5).png" alt="Проект boxes"></li>
-            <li>Проект Boxes</li>
+            <li img src="img(5).png" alt="prime"></li>
+            <li  class="mainli">Проєкт boxes</li>
             <li>Додаток</li>
             <li><img src="img(6).png" alt="inspiration"></li>
-            <li>Insipiration has no Borders</li>
+            <li  class="mainli">Insipiration has no Borders</li>
             <li>Веб-сайт</li>
             <li><img src="img(7).png" alt="Видання"></li>
-            <li>Видання Limited Edition</li>
+            <li  class="mainli">Видання Limited Edition</li>
             <li>Дизайн</li>
             <li><img src="img(8).png" alt="Проект LAB"></li>
-            <li>Проект LAB</li>
+            <li  class="mainli">Проект LAB</li>
             <li>Дизайн</li>
             <li><img src="img(9).png" alt="growing bussines"></li>
-            <li>Growing Bussines</li>
+            <li  class="mainli">Growing Bussines</li>
             <li>Додаток</li>
           </ul>
         </section>
+        <div>
     </main>
-    <footer style="background-color: rgb(72, 72, 122);">
-        <h1><span style="color: rgb(60, 60, 197);">Web</span>Studio</h1>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <p>info@example.com</p>
-        <p>+38 096 111 11 11</p>
+    <footer class="footer" style=" padding-top: 60px; padding-bottom:60px rgb(47,48,58)">
+        <div class="container">
+        <h1 class="footer_h1"><span style="color: rgb(60, 60, 197);">Web</span>Studio</h1>
+        <ul class="footer_ul">
+            <li> <p>м. Київ, пр-т Лесі Українки, 26</p></li>
+            <li>  <p>info@example.com</p></li>
+            <li>  <p>+38 096 111 11 11</p></li>
+        </ul>
+        <div>
     </footer>
 </body>
 </html>

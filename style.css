@@ -1,0 +1,56 @@
+
+
+body{
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 2;
+    font-weight: "Medium";
+}
+
+h1{
+    margin: 0;
+}
+
+
+.mainh1{
+    font-family: Raleway;
+    font-size: 26px;
+    letter-spacing: 3;
+    font-weight: 700;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.mainbuttons{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mainli{
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 6%;
+}
+
+.footer_h1{
+    font-family: Raleway;
+    font-size: 26px;
+    letter-spacing: 3;
+    font-weight: 700;
+
+}
+
+.footer_ul{
+    font-weight: 400;
+
+}
+
+.footer{
+    height: 230px;
+}
