@@ -30,6 +30,9 @@ h1{
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
 }
 
 .mainli{
@@ -53,4 +56,19 @@ h1{
 
 .footer{
     height: 230px;
+}
+
+
+.ul_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.main_ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
