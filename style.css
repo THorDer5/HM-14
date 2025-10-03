@@ -31,7 +31,7 @@ h1{
     font-size: 16px;
     font-weight: 500;
     display: flex;
-    gap: 8px;
+    gap: 15px;
     justify-content: center;
 }
 
@@ -280,8 +280,47 @@ color: #FFFFFF;
 
 
 
-.mainli1{
-    bottom: 50%;
-    background-color: blue;
+
+.img-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.img-wrap img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0; 
+  background: rgba(0, 0, 255, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.img-wrap:hover::after {
+  opacity: 1;
+}
+
+.h3_overflow{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+
+
+.img-wrap:hover .h3_overflow{
+    opacity: 1;
 }
 
