@@ -255,3 +255,33 @@ color: #FFFFFF;
 
 
 }
+
+
+.mainli{
+    background-image:url(cardbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+
+
+}
+
+
+.main_ul{
+    display: grid;
+    grid-template-columns:repeat(3,350px) ;
+    grid-template-rows: repeat(3,350px);
+    column-gap: 15px;
+    row-gap: 200px;
+
+}
+
+
+
+.mainli1{
+    bottom: 50%;
+    background-color: blue;
+}
+
