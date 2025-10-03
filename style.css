@@ -35,6 +35,34 @@ h1{
     justify-content: center;
 }
 
+.buttons_main{
+    width: 128px;
+    height: 38px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+
+
+
+
+background-color: #F5F4FA;
+border-color:#F5F4FA;;
+border-radius: 4px;
+
+
+}
+
+.buttons_main:hover{
+    background-color: rgba(33, 150, 243, 1);
+    color: white;
+}
+
 .mainli{
     font-weight: bold;
     font-size: 18px;
@@ -296,7 +324,7 @@ color: #FFFFFF;
   content: "";
   position: absolute;
   inset: 0; 
-  background: rgba(0, 0, 255, 0.5);
+  background: rgba(33, 150, 243, 0.9);
   opacity: 0;
   transition: opacity 0.3s;
 }
@@ -323,4 +351,5 @@ color: #FFFFFF;
 .img-wrap:hover .h3_overflow{
     opacity: 1;
 }
+
 
