@@ -72,3 +72,186 @@ h1{
     flex-wrap: wrap;
 
 }
+
+.footer-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.join_footer{
+    margin-bottom: 20px;
+}
+
+
+
+.footer_logos:hover{
+    cursor: pointer;
+}
+
+
+.photos_footer{
+    width: 44px;
+    height: 44px;
+}
+
+.footer_ul2{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+
+.footer_h1{
+    padding-bottom: 20px;
+}
+
+
+.svg_logo_footer{
+    width: 33px;
+    height: 33px;
+    fill: rgba(255, 255, 255, 1);
+
+}
+
+.footer_logos{
+    display: flex;
+    gap: 10px;
+
+}
+
+
+.footer_logos li{
+
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;             
+  background-color: #434343;       
+  display: flex;
+  justify-content: center;
+  align-items: center;           
+  cursor: pointer;
+
+}
+
+
+.subscribe_footer{
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 20px;
+color: #FFFFFF;
+
+
+}
+
+#email_footer{
+    width: 350px;
+    height: 50px;
+    background-color: rgba(47, 48, 58, 1);
+ 
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+padding-left: 16px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+
+
+}
+
+
+
+.flex_footer_subscribe{
+    display: flex;
+}
+
+.button_subscribe{
+
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+width: 220px;
+height: 60px;
+color: white;
+margin-left: 40px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+position: relative;
+
+
+
+}
+
+
+
+
+#checkbox{
+    border-radius: 20px;
+}
+
+.svg_plane_footer{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.contact_link {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  color: inherit; 
+}
+
+.contact_link:hover {
+  color: rgb(5, 184, 238);
+  cursor: pointer;
+}
+
+.svg_photo_mobile {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;;
+}
+
+
+
+.join_footer{
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
