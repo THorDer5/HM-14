@@ -353,3 +353,29 @@ color: #FFFFFF;
 }
 
 
+.ul_nav li {
+  position: relative; 
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s;
+}
+
+
+.ul_nav li:hover {
+  color: rgb(60, 60, 197);
+}
+
+.ul_nav li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background: rgb(60, 60, 197);
+  transition: width 0.3s;
+}
+
+.ul_nav li:hover::after {
+  width: 100%;
+}
